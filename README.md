@@ -1,6 +1,7 @@
 # nanoserver-mysql
 Windows Nanoserver MySQL Docker Repo
 
+After install you will see red text with password or you can use mysqladmin to set a new password
 
 docker run --name mysql -d -it -p 3306:3306 spencerfirmllc/nanoserver-mysql \
 docker exec -it mysql cmd \
