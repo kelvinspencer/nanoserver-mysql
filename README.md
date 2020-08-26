@@ -9,8 +9,8 @@ mysql –u root –p \
 
 Show running containers: docker ps -a -f status=running \
 Show container IP: docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" mysql \
-Show containerID: docker inspect --format="{{.Id}}" mysql \
+Show containerID: docker inspect --format="{{.Id}}" mysql 
 
 
 https://hub.docker.com/r/spencerfirmllc/nanoserver-mysql \
-https://hub.docker.com/r/nanoserver/iis-php \
+https://hub.docker.com/r/nanoserver/iis-php 
